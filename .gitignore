@@ -1,6 +1,7 @@
 HELP.md
 target/
-!.target/springboot-mongo-docker.jar
+!target/springboot-mongo-docker.jar
+!target/springboot-mongo-docker.jar.original
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
