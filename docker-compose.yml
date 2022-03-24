@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mongobd-survey:
+    image: mongo:latest
+    container_name: "mongobd-survey"
+    ports:
+      - 27017:27017
+  springboot-mongodb:
+    image: springboot-survey:1.0
+    container_name: springboot-survey
+    ports:
+      - 8080:8080
+    links:
+      - mongobd-survey
