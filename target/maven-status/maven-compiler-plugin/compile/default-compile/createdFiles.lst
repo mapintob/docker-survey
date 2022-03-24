@@ -1,0 +1,4 @@
+dev\miguel\apiencuesta\model\Encuesta.class
+dev\miguel\apiencuesta\controller\EncuestaController.class
+dev\miguel\apiencuesta\ApiEncuestaApplication.class
+dev\miguel\apiencuesta\repo\EncuestaRepository.class

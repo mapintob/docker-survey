@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      database: Survey
+      host: mongobd-survey
+      port: 27017

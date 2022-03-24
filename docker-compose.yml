@@ -6,6 +6,7 @@ services:
     ports:
       - 27017:27017
   springboot-mongodb:
+    build: .
     image: springboot-survey:1.0
     container_name: springboot-survey
     ports:
