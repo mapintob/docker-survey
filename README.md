@@ -13,9 +13,6 @@ Steps & Commands
 
 - [x] Open a command line
 - [x] pull mongo image from docker hub **`docker pull mongo:latest`**
-- [x] Open a command line in the project folder
-- [x] dockerize spring boot application **`docker build -t springboot-survey:1.0 .`**
-- [x] check docker image springboot-survey:1.0 is present **`docker images`** 
 - [x] Open a command line in the project folder and run the command **`docker-compose up`**
 - [x] To add a poll use the POST method in the Postman program as follows 'http://localhost:8080/encuestas' **`{
   "email": "jperez@gmail.com",
